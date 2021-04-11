@@ -5,7 +5,7 @@ import React from 'react';
 
 
 const cc = require('cryptocompare');
-cc.setApiKey(process.env.CRYPTO_COMPARE_API_KEY2);
+cc.setApiKey(process.env.CRYPTO_COMPARE_API_KEY);
 
 const MAX_FAVORITES = 10;
 const TIME_UNITS = 10;
